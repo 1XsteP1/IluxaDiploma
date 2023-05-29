@@ -1,0 +1,32 @@
+.control
+  width: 100%
+  display: flex
+  justify-content: space-between
+  margin-top: 10px
+  width: 200px
+  margin: 0 auto
+  margin-top: 20px
+  svg
+    transition: .3s
+    &:hover
+      transform: scale(1.2)
+      cursor: pointer
+
+.modal
+  position: absolute
+  display: none
+  top: 50%
+  left: 50%
+  transform: translate(-50%, -50%)
+  background: #fff
+  flex-direction: column
+  padding: 20px
+  div
+    display: flex
+    flex-direction: column
+    margin-bottom: 20px
+    &:last-child
+      margin-bottom: 0
+
+.show
+  display: flex !important
